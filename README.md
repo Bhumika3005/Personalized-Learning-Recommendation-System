@@ -14,21 +14,12 @@ Who does it affect?
 3. Educators & EdTech Platforms They cannot provide personalized learning experiences at a large scale. This translates into reduced learner engagement and course completion rates. 
 
 Why is it important?  
-1. Low Learning Efficiency  
-Learners waste time on irrelevant or poorly sequenced content.  
-2. Lack of Adaptive Learning  
-Most platforms do not adjust recommendations based on:  
-- Performance  
-- Understanding level  
-- Learning pace  
-3. No Intelligent Guidance  
-Learners do not receive answers to:  
+1. Low Learning Efficiency: Learners waste time on irrelevant or poorly sequenced content.  
+2. Lack of Adaptive Learning: Most platforms do not adjust recommendations based on Performance and Understanding level.   
+3. No Intelligent Guidance:Learners do not receive answers to:  
 - What should I learn next?   
-4. Cold Start Problem  
-New users get poor recommendations due to a lack of prior data.  
-5. Need for Explainability  
-Users doubt recommendations because:  
-- No explanation is provided
+4. Cold Start Problem: New users get poor recommendations due to a lack of prior data.  
+5. Need for Explainability:Users doubt recommendations because no explanation is provided.
 
 My Understanding of the Problem:
 
