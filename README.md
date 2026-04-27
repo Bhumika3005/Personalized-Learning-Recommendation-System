@@ -37,11 +37,13 @@ Your Assumptions:
 
 Research on Existing Solutions:
 
-Existing solutions or tools: 
+Existing solutions or tools:
+
 Solution 1: Coursera : How it works: Online courses and certificates Suggests courses for a user based on the same user’s activity; Provides progress reports and suggests learning routes 
 Solution 2: Duolingo Function: Language learning application Adjust difficulty based on users’ performance Provides tailored exercises and feedback.
 
 Observations: 
+
 Insight 1: Most systems give recommendations based on past activity like clicks, performance, and not on goals. 
 Insight 2: Adaptive learning helps in learning better by modifying the difficulty, pace, and content of learning. 
 
@@ -58,11 +60,14 @@ My idea:
 My suggestion is that a system is built to use Deep Learning and LLM to know what the user wants to learn, track what the user has learned, and make suggestions about what to learn in steps and in the right order using a simple explanation for each step. 
 
 My Proposed Approach:
-How you propose to solve the problem: Explanation of Approach This system, based on Deep Learning and LLM, will learn to understand the user’s goals and skill level. Also, the system will determine what the user must learn next in the correct step-by-step order. It will also adjust the recommendations based on past performance and provide a simple explanation for every recommendation. 
+How you propose to solve the problem: Explanation of Approach This system, based on Deep Learning and LLM, will learn to understand the user’s goals and skill level. Also, the system will determine what the user must learn next in the correct step-by-step order. It will also adjust the recommendations based on past performance and provide a simple explanation for every recommendation.
+
 Possible features:
+
 Feature 1 : Goal-based learning path – the user enters a goal, and the system creates a step-by-step plan. 2. Adaptive recommendations – recommendations are updated based on the user’s performances and their progress. 
 
 Challenges and Open Questions:
+
 Challenge or Question 1:How can the system accurately understand a user’s goal (like career goals) and convert it into the correct learning path?
 Challenge or Question 2:How can the system continuously update recommendations based on user performance in a fast and efficient way?
 
