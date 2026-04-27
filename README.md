@@ -71,8 +71,11 @@ I learned that it is important to understand the problem clearly before building
 
 Next Steps(My Plan):
 1.Improve research depth:I will learn more about recommendation systems and how they work.
+
 2. Validate idea with users or mentors:I will discuss my idea with teachers and students to get their feedback.
+ 
 3. Refine proposed solution:I will improve my idea and make it more clear and simple.
+   
 4. Explore feasibility:I will check if I have the tools, data, and resources to build this project.
 
 
