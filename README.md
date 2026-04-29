@@ -1,34 +1,34 @@
-# Personalized Learning Recommendation System
+ Personalized Learning Recommendation System
 
 A Deep Learning + LLM powered system that provides personalized, goal-based, and step-by-step learning recommendations for learners.
 
-## Problem Statement
+Problem Statement
 
 Online learning platforms do not properly personalize content for learners. They recommend courses based on clicks or popularity instead of understanding user goals, skill level, and learning needs. Because of this, learners receive irrelevant suggestions and do not get a clear step-by-step learning path.
 
-## Who Does It Affect?
+ Who Does It Affect?
 
-### Students / Learners
+Students / Learners
 
 * Beginners don’t know where to start
 * Intermediate learners get stuck
 * Advanced learners waste time on irrelevant content
 
-### Professionals / Job Seekers
+Professionals / Job Seekers
 
 * Difficulty in finding proper career learning paths
 * Lack of structured skill progression
 
-### Teachers / Educators
+Teachers / Educators
 
 * Cannot personalize learning for each student at scale
 
-### Learning Platforms
+Learning Platforms
 
 * Low engagement and low course completion rates
 
 
-## Why It Is Important
+ Why It Is Important
 
 * Learners waste time on irrelevant content
 * No adaptive learning based on performance
@@ -36,7 +36,7 @@ Online learning platforms do not properly personalize content for learners. They
 * Cold start problem for new users
 * No explanation for recommendations
 
-## Key Problems Identified
+ Key Problems Identified
 
 * No goal understanding
 * Lack of personalization
@@ -46,7 +46,7 @@ Online learning platforms do not properly personalize content for learners. They
 * Cold start problem
 * No explainability
 
-## Root Cause
+ Root Cause
 
 The system relies on simple signals like clicks and ratings instead of understanding:
 
@@ -56,9 +56,9 @@ The system relies on simple signals like clicks and ratings instead of understan
 
 It also fails to create structured and adaptive learning paths.
 
-## Symptoms vs Causes
+Symptoms vs Causes
 
-### Symptoms
+ Symptoms
 
 * Confusion in learners
 * Wasting time on wrong content
@@ -66,14 +66,14 @@ It also fails to create structured and adaptive learning paths.
 * Poor recommendations
 * Dropouts
 
-### Causes
+ Causes
 
 * No personalization
 * No goal understanding
 * No learning path design
 * No adaptive learning system
 
-## 5 Whys Analysis
+ 5 Whys Analysis
 
 Problem: Learners don’t know what to learn next
 
@@ -85,53 +85,53 @@ Problem: Learners don’t know what to learn next
 
 Root Cause: Lack of intelligent goal-aware recommendation system
 
-## Stakeholders
+Stakeholders
 
 * Students / Learners
 * Professionals / Job Seekers
 * Teachers / Educators
 * Learning Platforms
 
-## Impact on Stakeholders
+ Impact on Stakeholders
 
-### Students / Learners
+ Students / Learners
 
 Confused, waste time, and lack direction
 
-### Professionals / Job Seekers
+ Professionals / Job Seekers
 
 Cannot build proper career learning paths
 
-### Teachers
+ Teachers
 
 Cannot personalize learning for each student
 
-### Learning Platforms
+ Learning Platforms
 
 Low engagement and low completion rates
 
-## Scenarios
+ Scenarios
 
-### Scenario 1: New User
+Scenario 1: New User
 
 User enters goal → system generates basic learning path
 
-### Scenario 2: Active User
+Scenario 2: Active User
 
 System updates recommendations based on performance
 
-### Scenario 3: Returning User
+Scenario 3: Returning User
 
 System adjusts learning path after break
 
-## Edge Cases
+ Edge Cases
 
 * No goal or skill input
 * New user with no data (cold start)
 * Incorrect skill level input
 * Missing performance data
 
-## Assumptions
+ Assumptions
 
 * Users will share learning goals
 * Skill level may be incorrect
@@ -141,7 +141,7 @@ System adjusts learning path after break
 * System should work with low data
 * System should explain recommendations
 
-## Refined Assumptions
+Refined Assumptions
 
 * Users provide goals during onboarding
 * Skill level should be verified using quiz/test
@@ -150,11 +150,11 @@ System adjusts learning path after break
 * System handles cold start users
 * Deep Learning + LLM improves personalization
 
-## Key Insight
+ Key Insight
 
 The core issue is not just poor recommendations — it is the system’s inability to understand user goals and guide learning step-by-step.
 
-## Next Steps
+ Next Steps
 
 * Improve research on recommendation systems
 * Validate idea with users/mentors
