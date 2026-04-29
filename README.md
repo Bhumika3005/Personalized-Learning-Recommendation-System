@@ -2,13 +2,9 @@
 
 A Deep Learning + LLM powered system that provides personalized, goal-based, and step-by-step learning recommendations for learners.
 
----
-
 ## Problem Statement
 
 Online learning platforms do not properly personalize content for learners. They recommend courses based on clicks or popularity instead of understanding user goals, skill level, and learning needs. Because of this, learners receive irrelevant suggestions and do not get a clear step-by-step learning path.
-
----
 
 ## Who Does It Affect?
 
@@ -31,7 +27,6 @@ Online learning platforms do not properly personalize content for learners. They
 
 * Low engagement and low course completion rates
 
----
 
 ## Why It Is Important
 
@@ -40,8 +35,6 @@ Online learning platforms do not properly personalize content for learners. They
 * No clear guidance on “what to learn next”
 * Cold start problem for new users
 * No explanation for recommendations
-
----
 
 ## Key Problems Identified
 
@@ -53,8 +46,6 @@ Online learning platforms do not properly personalize content for learners. They
 * Cold start problem
 * No explainability
 
----
-
 ## Root Cause
 
 The system relies on simple signals like clicks and ratings instead of understanding:
@@ -64,8 +55,6 @@ The system relies on simple signals like clicks and ratings instead of understan
 * Learning progress
 
 It also fails to create structured and adaptive learning paths.
-
----
 
 ## Symptoms vs Causes
 
@@ -84,8 +73,6 @@ It also fails to create structured and adaptive learning paths.
 * No learning path design
 * No adaptive learning system
 
----
-
 ## 5 Whys Analysis
 
 Problem: Learners don’t know what to learn next
@@ -98,16 +85,12 @@ Problem: Learners don’t know what to learn next
 
 Root Cause: Lack of intelligent goal-aware recommendation system
 
----
-
 ## Stakeholders
 
 * Students / Learners
 * Professionals / Job Seekers
 * Teachers / Educators
 * Learning Platforms
-
----
 
 ## Impact on Stakeholders
 
@@ -127,8 +110,6 @@ Cannot personalize learning for each student
 
 Low engagement and low completion rates
 
----
-
 ## Scenarios
 
 ### Scenario 1: New User
@@ -143,16 +124,12 @@ System updates recommendations based on performance
 
 System adjusts learning path after break
 
----
-
 ## Edge Cases
 
 * No goal or skill input
 * New user with no data (cold start)
 * Incorrect skill level input
 * Missing performance data
-
----
 
 ## Assumptions
 
@@ -164,8 +141,6 @@ System adjusts learning path after break
 * System should work with low data
 * System should explain recommendations
 
----
-
 ## Refined Assumptions
 
 * Users provide goals during onboarding
@@ -175,13 +150,9 @@ System adjusts learning path after break
 * System handles cold start users
 * Deep Learning + LLM improves personalization
 
----
-
 ## Key Insight
 
 The core issue is not just poor recommendations — it is the system’s inability to understand user goals and guide learning step-by-step.
-
----
 
 ## Next Steps
 
