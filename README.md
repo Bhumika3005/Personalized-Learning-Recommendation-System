@@ -8,22 +8,22 @@ Online learning platforms do not properly personalize content for learners. They
 
  Who Does It Affect?
 
-Students / Learners
+1.Students / Learners
 
 * Beginners don’t know where to start
 * Intermediate learners get stuck
 * Advanced learners waste time on irrelevant content
 
-Professionals / Job Seekers
+2.Professionals / Job Seekers
 
 * Difficulty in finding proper career learning paths
 * Lack of structured skill progression
 
-Teachers / Educators
+3.Teachers / Educators
 
 * Cannot personalize learning for each student at scale
 
-Learning Platforms
+4.Learning Platforms
 
 * Low engagement and low course completion rates
 
@@ -98,9 +98,9 @@ Stakeholders:
 
 2. Professionals / Job Seekers: Cannot build proper career learning paths
 
-3.Teachers:Cannot personalize learning for each student
+3. Teachers:Cannot personalize learning for each student
 
-4.Learning Platforms: Low engagement and low completion rates
+4. Learning Platforms: Low engagement and low completion rates
 
  Scenarios:
 
