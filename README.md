@@ -2,7 +2,7 @@
 
 A **Deep Learning + LLM-based system** that provides **personalized, goal-based, and step-by-step learning recommendations** for learners.
 
----
+
 
 ##  Problem Statement
 
@@ -26,7 +26,7 @@ To build an intelligent system that:
 * No adaptive learning
 * No explanation for recommendations
 
----
+
 
 ##  Problem Description
 
@@ -48,7 +48,7 @@ Existing platforms recommend courses based on:
 * Wrong course selection
 * No clear learning path
 
----
+
 
 ##  Who Does It Affect?
 
