@@ -303,9 +303,9 @@ This system solves the problem by offering:
 
 ---
 ## References
-[Read pdf](./Research paper/paper1.pdf)
+[Read PDF](./Research paper/paper1.pdf)
 
-[Read pdf](./Research paper/paper2.pdf)
+[Read PDF](./Research paper/paper2.pdf)
 
 
 
