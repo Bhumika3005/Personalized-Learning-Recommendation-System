@@ -302,6 +302,11 @@ This system solves the problem by offering:
    * Real-time guidance
 
 ---
+## References
+[Read pdf](./Research paper/paper1.pdf)
+
+[Read pdf](./Research paper/paper2.pdf)
+
 
 
 
