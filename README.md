@@ -304,8 +304,8 @@ This system solves the problem by offering:
 ---
 ## References
 - [Read PDF1](./docs/Paper1.pdf)
-- [Read PDF1](./docs/Paper2.pdf)
--  [Read PDF1](./docs/Paper3.pdf)
+- [Read PDF2](./docs/Paper2.pdf)
+-  [Read PDF3](./docs/Paper3.pdf)
 
 
 
