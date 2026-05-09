@@ -1,3 +1,12 @@
+<p align="left">
+  <img src="./era_foundation_logo.jpg" width="140" align="left"/>
+</p>
+<p align="right">
+  <img src="./comed_kares_logo.jpg" width="320" align="right"/>
+</p>
+
+<br><br><br>
+
 # Personalized Learning Recommendation System Using LLMs, RAG, and Feedback-Based Recommendation Analysis
 
 ---
