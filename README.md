@@ -53,14 +53,12 @@ The primary focus of this project is improving recommendation quality through le
 
 Recent research by Ma and Wu introduced an LLM-driven personalized learning recommendation system using ChatGPT, DeepSeek, prompt engineering, semantic embeddings, and contextual recommendation generation.
 
-The system improved:
+### Improvements
 
 - Personalized recommendation generation
 - Semantic understanding
 - Learner interaction analysis
 - Cold-start handling
-
-The research demonstrated that LLM-based recommendation systems outperform traditional recommendation systems in semantic understanding and contextual recommendation generation.
 
 ### Limitations
 
@@ -74,14 +72,14 @@ The research demonstrated that LLM-based recommendation systems outperform tradi
 
 TutorLLM introduced a framework integrating Knowledge Tracing (KT), Retrieval-Augmented Generation (RAG), learner interaction analysis, and GPT-based recommendation generation.
 
-The framework improved:
+### Improvements
 
 - Context-aware recommendation generation
 - Adaptive educational support
 - Learner engagement
 - Recommendation relevance
 
-The system utilized:
+### Technologies Used
 
 - GPT-4
 - Knowledge Tracing
@@ -89,8 +87,6 @@ The system utilized:
 - Contextual retrieval
 
 ### Important Limitations
-
-The study had several limitations:
 
 - Evaluation conducted for only 15 days
 - Focused mainly on a single course domain
@@ -116,15 +112,13 @@ This research proposed a personalized course recommendation framework using:
 - Vector similarity search
 - Streamlit interface
 
-The system generated personalized course recommendations according to learner goals, educational background, and interests.
-
-The research demonstrated:
+### Achievements
 
 - High recommendation accuracy
 - Fast response generation
 - Positive learner feedback
 
-The paper also discussed:
+### Discussed Features
 
 - Feedback-based recommendation refinement
 - Adaptive recommendation improvement
@@ -175,7 +169,7 @@ The proposed Personalized Learning Recommendation System combines:
 - Vector Similarity Search
 - Feedback Analysis
 
-The system is designed to:
+### System Objectives
 
 - Generate personalized educational recommendations
 - Understand learner queries semantically
@@ -229,7 +223,7 @@ Embedding models convert textual data into dense vector representations that cap
 
 Embeddings are stored in Pinecone vector databases for efficient semantic retrieval.
 
-Vector similarity search retrieves:
+### Retrieved Information
 
 - Similar courses
 - Related educational resources
@@ -284,7 +278,7 @@ The architecture enables intelligent and adaptive educational recommendation gen
 
 The proposed framework improves educational recommendation quality through semantic understanding and feedback-based recommendation refinement.
 
-The system successfully provides:
+### System Achievements
 
 - Personalized course recommendations
 - Context-aware educational suggestions
@@ -294,7 +288,7 @@ The system successfully provides:
 
 Semantic embeddings and vector retrieval improve contextual understanding compared to traditional keyword-based recommendation systems.
 
-Feedback analysis improves:
+### Feedback Analysis Improvements
 
 - Recommendation relevance
 - Learner satisfaction
@@ -304,7 +298,7 @@ The framework demonstrates the effectiveness of combining LLMs, RAG, semantic em
 
 ---
 
-# VIII. Comparison of the Three Research Papers
+# VIII. COMPARISON OF THE THREE RESEARCH PAPERS
 
 | Parameters | LLM-Driven Personalized Learning Resource Recommendation System | TutorLLM: Knowledge Tracing and Retrieval-Augmented Generation | Personalized Learning Paths: LLM-Based Course Recommendations |
 |---|---|---|---|
