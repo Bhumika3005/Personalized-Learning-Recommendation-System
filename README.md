@@ -193,8 +193,6 @@ Educational data is collected from:
 - User queries
 - Learner feedback responses
 
----
-
 ## B. Data Preprocessing
 
 Preprocessing techniques include:
@@ -205,8 +203,6 @@ Preprocessing techniques include:
 - Noise removal
 - Text normalization
 
----
-
 ## C. Embedding Generation
 
 Semantic embeddings are generated for:
@@ -216,8 +212,6 @@ Semantic embeddings are generated for:
 - Educational resources
 
 Embedding models convert textual data into dense vector representations that capture semantic relationships between educational concepts.
-
----
 
 ## D. Vector Similarity Search
 
@@ -231,8 +225,6 @@ Embeddings are stored in Pinecone vector databases for efficient semantic retrie
 
 This improves recommendation relevance and contextual understanding.
 
----
-
 ## E. Retrieval-Augmented Generation (RAG)
 
 The RAG framework combines:
@@ -241,8 +233,6 @@ The RAG framework combines:
 - LLM-based recommendation generation
 
 Retrieved educational information is provided to the LLM to generate accurate and personalized recommendations.
-
----
 
 ## F. Feedback Analysis
 
@@ -300,33 +290,21 @@ The framework demonstrates the effectiveness of combining LLMs, RAG, semantic em
 
 # VIII. COMPARISON OF THE THREE RESEARCH PAPERS
 
-| Parameters | LLM-Driven Personalized Learning Resource Recommendation System | TutorLLM: Knowledge Tracing and Retrieval-Augmented Generation | Personalized Learning Paths: LLM-Based Course Recommendations |
+| Parameters | LLM-Driven Personalized Learning Resource Recommendation System | TutorLLM | Personalized Learning Paths |
 |---|---|---|---|
-| Main Objective | Personalized learning resource recommendation using Large Language Models | Context-aware tutoring and adaptive recommendation generation | Personalized course recommendation and learning path generation |
-| Large Language Models | Implemented | Implemented | Implemented |
+| Main Objective | Personalized learning resource recommendation using LLMs | Context-aware tutoring and adaptive recommendation generation | Personalized course recommendation and learning path generation |
 | GPT Integration | ChatGPT and DeepSeek | GPT-4 | GPT-4 |
 | Retrieval-Augmented Generation | Not Implemented | Implemented | Implemented |
 | Knowledge Tracing | Not Implemented | Implemented | Not Implemented |
 | Semantic Embeddings | Fully Used | Partially Used | Fully Used |
-| Vector Database | Not Used | Partially Used | Pinecone Vector Database Used |
-| Personalized Learning Paths | Partially Generated | Fully Generated | Fully Generated |
-| Context Awareness | Moderate | High | High |
-| Learner Interaction Analysis | Included | Included | Partially Included |
-| Adaptive Recommendation | Partially Supported | Fully Supported | Partially Supported |
+| Vector Database | Not Used | Partially Used | Pinecone Used |
 | Feedback Analysis | Not Included | Partially Included | Discussed as Future Work |
-| Cold-Start Problem Handling | Improved | Improved | Improved |
-| Recommendation Accuracy | High | High | Very High |
-| Multi-Domain Support | Partially Supported | Limited | Moderate |
 | Evaluation Duration | Moderate Evaluation | Evaluated for 15 Days | Moderate Evaluation |
-| Main Technologies Used | LangChain, ChatGPT, DeepSeek | GPT-4, Knowledge Tracing, RAG | GPT-4, Pinecone, Semantic Embeddings |
-| Main Strength | Semantic recommendation generation | Context-aware adaptive tutoring | Fast and accurate personalized recommendation |
 | Main Limitation | Hallucination issues and API cost | Single course domain and short evaluation period | Feedback learning not fully implemented |
 
 ---
 
 # IX. ADVANTAGES OF THE PROPOSED SYSTEM
-
-The proposed system provides several advantages:
 
 - Improved semantic understanding
 - Personalized educational recommendations
@@ -340,8 +318,6 @@ The proposed system provides several advantages:
 ---
 
 # X. LIMITATIONS
-
-Despite improvements, the proposed system still faces several challenges:
 
 - Hallucination issues in LLMs
 - Dependency on external APIs
@@ -381,6 +357,6 @@ The proposed framework provides an intelligent, adaptive, scalable, and context-
 
 1. Ma, Z., & Wu, J. (2025). *Design of an LLM-driven personalized learning resource recommendation system: A comparative study*. Frontiers in Computing and Intelligent Systems, 11(3), 91–94.
 
-2. Li, Z., Yazdanpanah, V., Wang, J., Gu, W., Shi, L., Cristea, A. I., Kiden, S., & Stein, S. (2024). *TutorLLM: Customizing learning recommendations with knowledge tracing and retrieval-augmented generation*. In Proceedings of the 18th ACM Conference on Recommender Systems (RecSys 2024).
+2. Li, Z., Yazdanpanah, V., Wang, J., Gu, W., Shi, L., Cristea, A. I., Kiden, S., & Stein, S. (2024). *TutorLLM: Customizing learning recommendations with knowledge tracing and retrieval-augmented generation*. Proceedings of the 18th ACM Conference on Recommender Systems (RecSys 2024).
 
 3. Jin, X., & Kamarthi, S. (2025). *Personalized learning paths: LLM-based course recommendations in manufacturing education*. American Society for Engineering Education (ASEE).
