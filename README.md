@@ -1,9 +1,9 @@
-# 🎓 Personalized Learning Recommendation System  
+#  Personalized Learning Recommendation System  
 ### Using LLMs, RAG, and Feedback-Based Recommendation Analysis
 
 ---
 
-## 📌 Abstract
+##  Abstract
 
 The rapid growth of online learning platforms has significantly increased the demand for intelligent and personalized educational recommendation systems. Traditional recommendation systems mainly rely on collaborative filtering and content-based filtering approaches, which often fail to provide adaptive and context-aware recommendations. These systems suffer from limitations such as cold-start problems, poor semantic understanding, lack of personalization, static learning recommendations, and ineffective utilization of learner feedback.
 
@@ -13,12 +13,12 @@ The system generates personalized learning suggestions based on learner goals, i
 
 ---
 
-## 🔑 Keywords
+##  Keywords
 Personalized Learning, Large Language Models, Retrieval-Augmented Generation, Semantic Embeddings, Vector Database, Educational Recommendation System, AI, Feedback Analysis, GPT-4
 
 ---
 
-## 📘 I. Introduction
+##  I. Introduction
 
 Online learning platforms such as Udemy, Coursera, and edX provide vast educational resources. However, learners often struggle to find suitable courses due to non-personalized recommendation systems.
 
@@ -39,12 +39,12 @@ Recent advancements in **LLMs (GPT-4, DeepSeek)** and **NLP** enable smarter sys
 
 ---
 
-## 📚 II. Literature Review
+##  II. Literature Review
 
 ### A. LLM-Driven Personalized Learning System
 - Uses ChatGPT, DeepSeek, embeddings, and prompt engineering  
 - Improves semantic recommendation quality  
-- ❌ Limitations:
+-  Limitations:
   - Hallucination issues
   - High API cost
   - No adaptive feedback learning  
@@ -54,7 +54,7 @@ Recent advancements in **LLMs (GPT-4, DeepSeek)** and **NLP** enable smarter sys
 ### B. TutorLLM (Knowledge Tracing + RAG)
 - Combines Knowledge Tracing, GPT-4, and RAG  
 - Improves adaptive learning and engagement  
-- ❌ Limitations:
+-  Limitations:
   - Short evaluation period (15 days)
   - Limited domain
   - Poor scalability testing  
@@ -64,12 +64,12 @@ Recent advancements in **LLMs (GPT-4, DeepSeek)** and **NLP** enable smarter sys
 ### C. Personalized Learning Paths (LLM-Based)
 - Uses GPT-4, Pinecone, and embeddings  
 - Strong recommendation accuracy  
-- ❌ Limitation:
+-  Limitation:
   - Feedback learning not fully implemented  
 
 ---
 
-## ❗ III. Problem Statement
+##  III. Problem Statement
 
 Existing systems suffer from:
 
@@ -80,11 +80,11 @@ Existing systems suffer from:
 5. Ineffective feedback usage  
 6. Limited context awareness  
 
-👉 This project focuses mainly on **feedback-based improvement and adaptive recommendations**.
+ This project focuses mainly on **feedback-based improvement and adaptive recommendations**.
 
 ---
 
-## 🧠 IV. Proposed System
+##  IV. Proposed System
 
 The system integrates:
 
@@ -102,7 +102,7 @@ The system integrates:
 
 ---
 
-## ⚙️ V. Methodology
+##  V. Methodology
 
 ### A. Data Collection
 - Courses
@@ -137,7 +137,7 @@ Combines:
 - Retrieved knowledge
 - LLM generation
 
-👉 Produces accurate recommendations
+ Produces accurate recommendations
 
 ---
 
@@ -148,7 +148,7 @@ Combines:
 
 ---
 
-## 🏗️ VI. System Architecture
+##  VI. System Architecture
 
 1. User Input Layer  
 2. Query Processing Module  
@@ -161,7 +161,7 @@ Combines:
 
 ---
 
-## 📊 VII. Results & Discussion
+##  VII. Results & Discussion
 
 ### Improvements:
 - Personalized recommendations
@@ -175,7 +175,7 @@ Feedback-based refinement significantly improves recommendation relevance and ac
 
 ---
 
-## 📊 VIII. Comparison of Research Papers
+##  VIII. Comparison of Research Papers
 
 | Feature | LLM-Driven System | TutorLLM | Proposed System |
 |----------|------------------|----------|------------------|
@@ -192,7 +192,7 @@ Feedback-based refinement significantly improves recommendation relevance and ac
 
 ---
 
-## 🚀 IX. Advantages
+##  IX. Advantages
 
 - Personalized learning experience  
 - Context-aware recommendations  
@@ -203,7 +203,7 @@ Feedback-based refinement significantly improves recommendation relevance and ac
 
 ---
 
-## ⚠️ X. Limitations
+##  X. Limitations
 
 - LLM hallucination risk  
 - High computational cost  
@@ -213,7 +213,7 @@ Feedback-based refinement significantly improves recommendation relevance and ac
 
 ---
 
-## 🔮 XI. Future Scope
+##  XI. Future Scope
 
 - Real-time adaptive learning  
 - Voice-based AI tutor  
@@ -224,7 +224,7 @@ Feedback-based refinement significantly improves recommendation relevance and ac
 
 ---
 
-## 🏁 XII. Conclusion
+##  XII. Conclusion
 
 This project presents an AI-powered personalized learning system using **LLMs, RAG, embeddings, vector databases, and feedback analysis**.
 
@@ -237,7 +237,7 @@ The system demonstrates strong potential for next-generation intelligent educati
 
 ---
 
-## 📖 References
+##  References
 
 1. Ma, Z., & Wu, J. (2025). *LLM-driven personalized learning resource recommendation system*. Frontiers in Computing and Intelligent Systems.  
 
