@@ -299,31 +299,19 @@ The system analyzes learner queries semantically, retrieves context-aware educat
 
 ## 7.2 System Architecture
 
-````md
 ## System Architecture
 
-```text
-STUDENT
-   ↓
-QUERY ANALYSIS
-   ↓
-EMBEDDING GENERATION
-   ↓
-VECTOR DATABASE
-   ↓
-SEMANTIC RETRIEVAL
-   ↓
-RAG + LLM ENGINE
-   ↓
-RECOMMENDATION SYSTEM
-   ↓
-FEEDBACK ANALYSIS
-   ↓
-IMPROVED RECOMMENDATIONS
-   ↓
-BACK TO STUDENT
-```
-````
+STUDENT 
+   → QUERY ANALYSIS 
+   → EMBEDDING GENERATION 
+   → VECTOR DATABASE 
+   → SEMANTIC RETRIEVAL 
+   → RAG + LLM ENGINE 
+   → RECOMMENDATION SYSTEM 
+   → FEEDBACK ANALYSIS 
+   → IMPROVED RECOMMENDATIONS 
+   → BACK TO STUDENT
+
 ---
 
 ## 7.3 Data Flow
