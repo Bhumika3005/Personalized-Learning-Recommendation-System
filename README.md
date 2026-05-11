@@ -299,6 +299,10 @@ The system analyzes learner queries semantically, retrieves context-aware educat
 
 ## 7.2 System Architecture
 
+````md
+## System Architecture
+
+```text
 STUDENT
    ↓
 QUERY ANALYSIS
@@ -318,9 +322,8 @@ FEEDBACK ANALYSIS
 IMPROVED RECOMMENDATIONS
    ↓
 BACK TO STUDENT
-
-
-
+```
+````
 ---
 
 ## 7.3 Data Flow
