@@ -10,19 +10,23 @@
 
 ## Submitted By
 
-### Student Details
+**Student Name :** BHUMIKA K  
 
-Student Name : BHUMIKA K 
-USN / Roll Number : 1DA24MC014
-Department : MCA 
-Institution : DR Ambedkar Institute of Technology 
+**USN / Roll Number :** 1DA24MC014  
 
-### Guide / Mentor
+**Department :** MCA  
 
-Guide: Harsha T R 
-Mentor 1: Shashi Rekha
-Mentor 2: Sushma M
+**Institution :** DR Ambedkar Institute of Technology  
+
 ---
+
+## Guide / Mentor
+
+**Guide :** Harsha T R  
+
+**Mentor 1 :** Shashi Rekha  
+
+**Mentor 2 :** Sushma M  
 
 # Abstract
 
@@ -295,90 +299,27 @@ The system analyzes learner queries semantically, retrieves context-aware educat
 
 ## 7.2 System Architecture
 
-```text
-                 SYSTEM ARCHITECTURE
- Personalized Learning Recommendation System
+STUDENT
+   ↓
+QUERY ANALYSIS
+   ↓
+EMBEDDING GENERATION
+   ↓
+VECTOR DATABASE
+   ↓
+SEMANTIC RETRIEVAL
+   ↓
+RAG + LLM ENGINE
+   ↓
+RECOMMENDATION SYSTEM
+   ↓
+FEEDBACK ANALYSIS
+   ↓
+IMPROVED RECOMMENDATIONS
+   ↓
+BACK TO STUDENT
 
 
-+----------------------+
-|       STUDENT        |
-|----------------------|
-| • Enter Query        |
-| • Learning Goals     |
-| • Interests          |
-| • Background         |
-| • Give Feedback      |
-+----------+-----------+
-           |
-           v
-
-+----------------------+
-|   QUERY ANALYSIS     |
-|----------------------|
-| • Understand Query   |
-| • Extract Keywords   |
-+----------+-----------+
-           |
-           v
-
-+----------------------+
-| EMBEDDING GENERATION |
-|----------------------|
-| Convert Query into   |
-| Semantic Embeddings  |
-+----------+-----------+
-           |
-           v
-
-+----------------------+
-|   VECTOR DATABASE    |
-|----------------------|
-| Store Course &       |
-| Resource Embeddings  |
-+----------+-----------+
-           |
-           v
-
-+----------------------+
-| SEMANTIC RETRIEVAL   |
-|----------------------|
-| Retrieve Relevant    |
-| Courses & Resources  |
-+----------+-----------+
-           |
-           v
-
-+----------------------+
-| RAG + LLM ENGINE     |
-|----------------------|
-| Generate Personalized|
-| Recommendations      |
-+----------+-----------+
-           |
-           v
-
-+----------------------+
-| RECOMMENDATION       |
-|----------------------|
-| • Courses            |
-| • Learning Path      |
-| • Study Materials    |
-+----------+-----------+
-           |
-           v
-
-+----------------------+
-| FEEDBACK ANALYSIS    |
-|----------------------|
-| Analyze Feedback &   |
-| Improve Suggestions  |
-+----------+-----------+
-           |
-           +------------------+
-                              |
-                              v
-                        Back to Student
-```
 
 ---
 
@@ -543,11 +484,13 @@ The system demonstrated improved recommendation relevance, learner engagement, a
 ## References
 
 
-[1] Z. Ma and J. Wu, "Design of an LLM-driven personalized learning resource recommendation system: A comparative study," Frontiers in Computing and Intelligent Systems, vol. 11, no. 3, pp. 91–94, 2025.
+## References
 
-[2] Z. Li, V. Yazdanpanah, J. Wang, W. Gu, L. Shi, A. I. Cristea, S. Kiden, and S. Stein, "TutorLLM: Customizing learning recommendations with knowledge tracing and retrieval-augmented generation," RecSys 2024, 2024.
+[1] [Z. Ma and J. Wu - Design of an LLM-driven personalized learning resource recommendation system](https://scholar.google.com/scholar?q=Design+of+an+LLM-driven+personalized+learning+resource+recommendation+system)
 
-[3] X. Jin and S. Kamarthi, "Personalized learning paths: LLM-based course recommendations in manufacturing education," ASEE Conference Proceedings, 2025.
+[2] [Z. Li et al. - TutorLLM: Customizing learning recommendations with knowledge tracing and retrieval-augmented generation](https://scholar.google.com/scholar?q=TutorLLM+Customizing+learning+recommendations+with+knowledge+tracing+and+retrieval-augmented+generation)
+
+[3] [X. Jin and S. Kamarthi - Personalized learning paths: LLM-based course recommendations in manufacturing education](https://scholar.google.com/scholar?q=Personalized+learning+paths+LLM-based+course+recommendations+in+manufacturing+education)
 
 ---
 
