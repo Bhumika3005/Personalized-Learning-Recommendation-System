@@ -483,7 +483,7 @@ The system demonstrated improved recommendation relevance, learner engagement, a
 
 [1] [Design of an LLM-driven personalized learning resource recommendation system](https://elicit.com/review/f0f41ee7-68d7-4670-a25a-a14ff56db186/source/ss-277429947)
 
-[2] [TutorLLM: Customizing Learning Recommendations with Knowledge Tracing and Retrieval-Augmented Generation](https://elicit.com/search?q=TutorLLM%20Customizing%20Learning%20Recommendations%20with%20Knowledge%20Tracing%20and%20Retrieval-Augmented%20Generation)
+[2] [TutorLLM: Customizing Learning Recommendations with Knowledge Tracing and Retrieval-Augmented Generation](https://elicit.com/review/f0f41ee7-68d7-4670-a25a-a14ff56db186/source/ss-276575412)
 
 [3] [X. Jin and S. Kamarthi - Personalized learning paths: LLM-based course recommendations in manufacturing education](https://scholar.google.com/scholar?q=Personalized+learning+paths+LLM-based+course+recommendations+in+manufacturing+education)
 
