@@ -4,7 +4,7 @@
   <img src="https://comedkares.org/wp-content/uploads/2023/04/Comedkares-Logo-EPS.png" width="220"/>
 </p>
 
-# Personalized Learning Recommendation System Using LLMs, RAG, and Feedback-Based Recommendation Analysis
+# Personalized Learning Recommendation System Using LLMs, DL,RAG
 
 ---
 
