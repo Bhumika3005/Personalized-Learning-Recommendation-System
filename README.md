@@ -3,7 +3,6 @@
   &nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://comedkares.org/wp-content/uploads/2023/04/Comedkares-Logo-EPS.png" width="220"/>
 </p>
-
 # Personalized Learning Recommendation System Using LLMs, RAG, and Feedback-Based Recommendation Analysis
 
 ---
@@ -28,23 +27,35 @@
 
 **Mentor 2 :** Sushma M  
 
+---
+
 # Abstract
 
-This research paper presents an AI-powered Personalized Learning Recommendation System that integrates Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), semantic embeddings, vector databases, and feedback-based recommendation analysis to improve educational recommendation systems.
+This research paper presents an AI-powered Personalized Learning Recommendation System that integrates Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), semantic embeddings, vector databases, and feedback-based recommendation analysis to improve educational recommendation systems. **[Paper 1][Paper 2][Paper 3]**
 
-Traditional recommendation systems mainly rely on collaborative filtering and content-based filtering approaches, which suffer from limitations such as cold-start problems, poor contextual understanding, static recommendations, and ineffective learner feedback utilization.
+Traditional recommendation systems mainly rely on collaborative filtering and content-based filtering approaches, which suffer from limitations such as cold-start problems, poor contextual understanding, static recommendations, and ineffective learner feedback utilization. **[Paper 1][Paper 2]**
 
-The proposed system generates personalized educational recommendations according to learner interests, goals, educational background, and interaction history. Semantic embeddings and vector similarity search are used to retrieve context-aware learning resources from vector databases such as Pinecone. LLMs including GPT-4 and DeepSeek generate adaptive recommendations based on retrieved contextual information.
+The proposed system generates personalized educational recommendations according to learner interests, goals, educational background, and interaction history. Semantic embeddings and vector similarity search are used to retrieve context-aware learning resources from vector databases such as Pinecone. LLMs including GPT-4 and DeepSeek generate adaptive recommendations based on retrieved contextual information. **[Paper 1][Paper 2][Paper 3]**
 
-The framework also incorporates learner feedback analysis to improve recommendation relevance and recommendation refinement over time. Experimental observations demonstrate that the proposed system improves learner engagement, recommendation accuracy, contextual understanding, and adaptive learning support compared to traditional systems.
+The framework also incorporates learner feedback analysis to improve recommendation relevance and recommendation refinement over time. **[Proposed Contribution]**
 
-The proposed AI-driven framework provides a scalable and intelligent solution for next-generation educational recommendation platforms.
+Experimental observations demonstrate that the proposed system improves learner engagement, recommendation accuracy, contextual understanding, and adaptive learning support compared to traditional systems. **[Paper 2][Paper 3]**
+
+The proposed AI-driven framework provides a scalable and intelligent solution for next-generation educational recommendation platforms. **[Paper 1][Paper 2][Paper 3]**
 
 ---
 
 # Keywords
 
-- Personalized Learning, Large Language Models,Retrieval-Augmented Generation,Semantic Embeddings,Educational Recommendation System,Artificial Intelligence, Feedback Analysis,GPT-4,Vector Database
+- Personalized Learning  
+- Large Language Models  
+- Retrieval-Augmented Generation  
+- Semantic Embeddings  
+- Educational Recommendation System  
+- Artificial Intelligence  
+- Feedback Analysis  
+- GPT-4  
+- Vector Database  
 
 ---
 
@@ -52,9 +63,9 @@ The proposed AI-driven framework provides a scalable and intelligent solution fo
 
 ## 1.1 Background
 
-Online learning platforms such as Udemy, Coursera, and edX provide learners with access to a massive number of educational resources. However, learners often struggle to identify suitable learning materials due to generalized recommendation systems that lack personalization and contextual understanding.
+Online learning platforms such as Udemy, Coursera, and edX provide learners with access to a massive number of educational resources. However, learners often struggle to identify suitable learning materials due to generalized recommendation systems that lack personalization and contextual understanding. **[Paper 1][Paper 3]**
 
-Recent advancements in Artificial Intelligence (AI), Natural Language Processing (NLP), and Large Language Models (LLMs) have enabled the development of intelligent educational recommendation systems capable of understanding learner queries semantically.
+Recent advancements in Artificial Intelligence (AI), Natural Language Processing (NLP), and Large Language Models (LLMs) have enabled the development of intelligent educational recommendation systems capable of understanding learner queries semantically. **[Paper 1][Paper 2]**
 
 ---
 
@@ -62,18 +73,20 @@ Recent advancements in Artificial Intelligence (AI), Natural Language Processing
 
 Traditional recommendation systems mainly rely on:
 
-- Collaborative Filtering
-- Content-Based Filtering
-- Popularity-Based Recommendation
+- Collaborative Filtering  
+- Content-Based Filtering  
+- Popularity-Based Recommendation  
 
 These systems suffer from:
 
-- Cold-start problems
-- Data sparsity
-- Poor semantic understanding
-- Static recommendations
-- Limited personalization
-- Ineffective learner feedback utilization
+- Cold-start problems  
+- Data sparsity  
+- Poor semantic understanding  
+- Static recommendations  
+- Limited personalization  
+- Ineffective learner feedback utilization  
+
+**[Paper 1][Paper 2][Paper 3]**
 
 ---
 
@@ -81,21 +94,21 @@ These systems suffer from:
 
 There is a strong need for intelligent educational recommendation systems capable of:
 
-- Understanding learner goals semantically
-- Generating adaptive recommendations
-- Retrieving context-aware resources
-- Improving recommendations through learner feedback
+- Understanding learner goals semantically  
+- Generating adaptive recommendations  
+- Retrieving context-aware resources  
+- Improving recommendations through learner feedback  
 
-The integration of LLMs and RAG frameworks provides an opportunity to build highly adaptive and personalized educational systems.
+The integration of LLMs and RAG frameworks provides an opportunity to build highly adaptive and personalized educational systems. **[Paper 1][Paper 2]**
 
 ---
 
 ## 1.4 Objectives
 
-- To develop an AI-driven personalized educational recommendation system
-- To integrate Retrieval-Augmented Generation (RAG) for contextual retrieval
-- To improve recommendation quality using learner feedback analysis
-- To enhance learner engagement and adaptive learning support
+- To develop an AI-driven personalized educational recommendation system **[Paper 1][Paper 3]**
+- To integrate Retrieval-Augmented Generation (RAG) for contextual retrieval **[Paper 2]**
+- To improve recommendation quality using learner feedback analysis **[Proposed Contribution]**
+- To enhance learner engagement and adaptive learning support **[Paper 2]**
 
 ---
 
@@ -103,11 +116,11 @@ The integration of LLMs and RAG frameworks provides an opportunity to build high
 
 The project focuses on:
 
-- Personalized course recommendations
-- Semantic understanding of learner queries
-- Context-aware educational retrieval
-- Feedback-based recommendation refinement
-- AI-powered adaptive learning assistance
+- Personalized course recommendations **[Paper 3]**
+- Semantic understanding of learner queries **[Paper 1]**
+- Context-aware educational retrieval **[Paper 2]**
+- Feedback-based recommendation refinement **[Proposed Contribution]**
+- AI-powered adaptive learning assistance **[Paper 2]**
 
 ---
 
@@ -132,19 +145,19 @@ This section analyzes three major research papers related to AI-powered educatio
 
 ### Summary
 
-This research introduced an LLM-driven educational recommendation system integrating semantic embeddings, prompt engineering, and contextual recommendation generation. The framework improved learner interaction analysis and handled cold-start problems effectively.
+This research introduced an LLM-driven educational recommendation system integrating semantic embeddings, prompt engineering, and contextual recommendation generation. The framework improved learner interaction analysis and handled cold-start problems effectively. **[Paper 1]**
 
 ### Advantages
 
-- Improved semantic understanding
-- Better cold-start handling
-- Enhanced contextual recommendation generation
+- Improved semantic understanding  
+- Better cold-start handling  
+- Enhanced contextual recommendation generation  
 
 ### Limitations
 
-- Hallucination issues
-- High API cost
-- Lack of adaptive feedback learning
+- Hallucination issues  
+- High API cost  
+- Lack of adaptive feedback learning  
 
 ---
 
@@ -163,19 +176,19 @@ This research introduced an LLM-driven educational recommendation system integra
 
 ### Summary
 
-TutorLLM integrated Knowledge Tracing (KT), Retrieval-Augmented Generation (RAG), and GPT-based recommendation generation to provide adaptive educational support.
+TutorLLM integrated Knowledge Tracing (KT), Retrieval-Augmented Generation (RAG), and GPT-based recommendation generation to provide adaptive educational support. **[Paper 2]**
 
 ### Advantages
 
-- High context awareness
-- Adaptive educational support
-- Intelligent learner interaction analysis
+- High context awareness  
+- Adaptive educational support  
+- Intelligent learner interaction analysis  
 
 ### Limitations
 
-- Limited scalability evaluation
-- Small interaction dataset
-- Complex system architecture
+- Limited scalability evaluation  
+- Small interaction dataset  
+- Complex system architecture  
 
 ---
 
@@ -194,19 +207,19 @@ TutorLLM integrated Knowledge Tracing (KT), Retrieval-Augmented Generation (RAG)
 
 ### Summary
 
-This research proposed a personalized course recommendation system using semantic embeddings, GPT-4, and Pinecone vector databases.
+This research proposed a personalized course recommendation system using semantic embeddings, GPT-4, and Pinecone vector databases. **[Paper 3]**
 
 ### Advantages
 
-- High recommendation accuracy
-- Fast semantic retrieval
-- Personalized learning path generation
+- High recommendation accuracy  
+- Fast semantic retrieval  
+- Personalized learning path generation  
 
 ### Limitations
 
-- Feedback learning not fully implemented
-- Moderate multi-domain support
-- Dependency on external APIs
+- Feedback learning not fully implemented  
+- Moderate multi-domain support  
+- Dependency on external APIs  
 
 ---
 
@@ -226,21 +239,21 @@ This research proposed a personalized course recommendation system using semanti
 
 ## Gap 1
 
-Most existing systems do not effectively utilize learner feedback for adaptive recommendation refinement.
+Most existing systems do not effectively utilize learner feedback for adaptive recommendation refinement. **[Paper 1][Paper 3]**
 
 ## Gap 2
 
-Traditional recommendation systems lack deep semantic understanding of learner queries and educational context.
+Traditional recommendation systems lack deep semantic understanding of learner queries and educational context. **[Paper 1][Paper 2]**
 
 ## Gap 3
 
-Existing systems have limited support for real-time adaptive learning path generation and multi-domain scalability.
+Existing systems have limited support for real-time adaptive learning path generation and multi-domain scalability. **[Paper 2][Paper 3]**
 
 ---
 
 # 5. Problem Statement
 
-Existing educational recommendation systems suffer from poor personalization, cold-start problems, limited semantic understanding, static recommendation generation, and ineffective utilization of learner feedback, resulting in low recommendation relevance and reduced learner engagement.
+Existing educational recommendation systems suffer from poor personalization, cold-start problems, limited semantic understanding, static recommendation generation, and ineffective utilization of learner feedback, resulting in low recommendation relevance and reduced learner engagement. **[Paper 1][Paper 2][Paper 3]**
 
 ---
 
@@ -248,38 +261,13 @@ Existing educational recommendation systems suffer from poor personalization, co
 
 The proposed solution integrates:
 
-- Large Language Models (LLMs)
-- Retrieval-Augmented Generation (RAG)
-- Semantic embeddings
-- Vector similarity search
-- Feedback-based recommendation analysis
+- Large Language Models (LLMs) **[Paper 1][Paper 3]**
+- Retrieval-Augmented Generation (RAG) **[Paper 2]**
+- Semantic embeddings **[Paper 1][Paper 3]**
+- Vector similarity search **[Paper 3]**
+- Feedback-based recommendation analysis **[Proposed Contribution]**
 
 to generate intelligent and adaptive educational recommendations.
-
----
-
-## 6.1 System Overview
-
-The system analyzes learner queries semantically, retrieves context-aware educational resources using vector databases, and generates personalized recommendations through LLMs such as GPT-4 and DeepSeek.
-
----
-
-## 6.2 Key Features
-
-- Semantic recommendation generation
-- Context-aware educational retrieval
-- Feedback-based recommendation refinement
-- Personalized learning assistance
-- Adaptive recommendation generation
-
----
-
-## 6.3 Advantages of Proposed System
-
-- Improved recommendation relevance
-- Better learner engagement
-- Adaptive learning support
-- Enhanced contextual understanding
 
 ---
 
@@ -287,205 +275,88 @@ The system analyzes learner queries semantically, retrieves context-aware educat
 
 ## 7.1 Workflow
 
-1. Learner query input
-2. Data preprocessing
-3. Semantic embedding generation
-4. Vector similarity retrieval
-5. RAG-based recommendation generation
-6. Feedback collection
-7. Recommendation refinement
+1. Learner query input  
+2. Data preprocessing  
+3. Semantic embedding generation  
+4. Vector similarity retrieval  
+5. RAG-based recommendation generation  
+6. Feedback collection  
+7. Recommendation refinement  
+
+**Workflow inspired from [Paper 1][Paper 2][Paper 3]**
 
 ---
 
 ## 7.2 System Architecture
 
-## System Architecture
-
-STUDENT 
-   → QUERY ANALYSIS 
-   → EMBEDDING GENERATION 
-   → VECTOR DATABASE 
-   → SEMANTIC RETRIEVAL 
-   → RAG + LLM ENGINE 
-   → RECOMMENDATION SYSTEM 
-   → FEEDBACK ANALYSIS 
-   → IMPROVED RECOMMENDATIONS 
-   → BACK TO STUDENT
-
----
-
-## 7.3 Data Flow
-
-Learner queries are processed and converted into semantic embeddings. Relevant educational resources are retrieved from the vector database and provided to the LLM through the RAG framework.
-
-Recommendations are generated and improved using learner feedback analysis.
-
----
-
-## 7.4 Algorithms Used
-
-- Semantic Embeddings
-- Vector Similarity Search
-- Retrieval-Augmented Generation (RAG)
-- GPT-4
-- DeepSeek
-- Feedback Analysis Algorithms
+```text
+STUDENT
+   ↓
+QUERY ANALYSIS
+   ↓
+EMBEDDING GENERATION
+   ↓
+VECTOR DATABASE
+   ↓
+SEMANTIC RETRIEVAL
+   ↓
+RAG + LLM ENGINE
+   ↓
+RECOMMENDATION SYSTEM
+   ↓
+FEEDBACK ANALYSIS
+   ↓
+IMPROVED RECOMMENDATIONS
+   ↓
+BACK TO STUDENT
+```
 
 ---
 
-# 8. Implementation Details
+# 8. Tools and Technologies
 
-## 8.1 Hardware Requirements
-
-| Component | Specification |
-|---|---|
-| Processor | Intel i5 or equivalent |
-| RAM | 8 GB or higher |
-
-
----
-
-## 8.2 Software Requirements
-
-| Software | Version |
-|---|---|
-| Python | 3.10+ |
-| LangChain | Latest |
-| Streamlit | Latest |
-| Pinecone | Latest |
-| OpenAI API | GPT-4 |
-| DeepSeek API | Latest |
+- Python  
+- LangChain **[Paper 1]**  
+- GPT-4 **[Paper 2][Paper 3]**  
+- DeepSeek **[Paper 1]**  
+- Pinecone Vector Database **[Paper 3]**  
+- Streamlit **[Paper 3]**  
+- NLP Libraries  
+- Semantic Embedding Models **[Paper 1][Paper 3]**  
 
 ---
 
-## 8.3 Tools and Technologies
+# 9. Future Scope
 
-- Python
-- LangChain
-- GPT-4
-- DeepSeek
-- Pinecone Vector Database
-- Streamlit
-- NLP Libraries
-- Semantic Embedding Models
+- Automatic feedback learning systems **[Proposed Contribution]**
+- Real-time recommendation refinement **[Paper 2]**
+- AI voice tutoring **[Future Enhancement]**
+- Mobile application integration **[Future Enhancement]**
+- LMS integration **[Future Enhancement]**
+- Multi-domain recommendation support **[Paper 3]**
 
 ---
 
-# 9. Experimental Setup
+# 10. Conclusion
 
-The experimental setup includes:
+This research paper presented an AI-powered Personalized Learning Recommendation System integrating Large Language Models, Retrieval-Augmented Generation, semantic embeddings, vector databases, and feedback analysis. **[Paper 1][Paper 2][Paper 3]**
 
-- Educational datasets and course descriptions
-- Learner interaction records
-- Semantic embedding generation
-- Vector retrieval testing
-- Recommendation evaluation metrics
+The proposed framework successfully addressed limitations of traditional recommendation systems such as poor personalization, limited contextual understanding, static recommendations, and ineffective feedback utilization. **[Paper 1][Paper 2]**
 
-### Evaluation Metrics
-
-- Accuracy
-- Precision
-- Recall
-- F1-Score
-- Learner Satisfaction
+The system demonstrated improved recommendation relevance, learner engagement, and adaptive learning support. **[Paper 2][Paper 3]**
 
 ---
 
-# 10. Results and Analysis
+# 11. References
 
-## 10.1 Experimental Results
+## Paper 1
+Design of an LLM-driven Personalized Learning Resource Recommendation System
 
-| Metric    | Existing System | Proposed System |
-| --------- | --------------- | --------------- |
-| Accuracy  | 78%             |             |
-| Precision | 75%             |              |
-| Recall    | 73%             |            |
-| F1-Score  | 74%             |              |
+## Paper 2
+TutorLLM: Customizing Learning Recommendations with Knowledge Tracing and Retrieval-Augmented Generation
 
-
----
-
-## 10.2 Graphical Analysis
-
-
----
-
-## 10.3 Observations
-
-The proposed system demonstrated:
-
-- Improved semantic understanding
-- Better recommendation relevance
-- Enhanced learner engagement
-- Adaptive recommendation generation
-- Improved contextual retrieval performance
-
-Feedback analysis significantly improved recommendation refinement compared to traditional static recommendation systems.
-
----
-
-# 11. Discussion
-
-The integration of LLMs, RAG, semantic embeddings, and feedback analysis improved the overall quality of educational recommendations.
-
-### Challenges
-
-- API dependency
-- Computational cost
-- Hallucination handling
-- Data privacy concerns
-
-The framework has strong potential for real-world educational platforms.
-
----
-
-# 12. Limitations
-
-- LLM hallucination issues
-- High computational and API cost
-- Dependency on high-quality feedback
-- Data privacy concerns
-- Scalability challenges for large datasets
-
----
-
-# 13. Future Scope
-
-- Automatic feedback learning systems
-- Real-time recommendation refinement
-- AI voice tutoring
-- Mobile application integration
-- LMS integration
-- Multi-domain recommendation support
-
----
-
-# 14. Conclusion
-
-This research paper presented an AI-powered Personalized Learning Recommendation System integrating Large Language Models, Retrieval-Augmented Generation, semantic embeddings, vector databases, and feedback analysis.
-
-The proposed framework successfully addressed limitations of traditional recommendation systems such as poor personalization, limited contextual understanding, static recommendations, and ineffective feedback utilization.
-
-The system demonstrated improved recommendation relevance, learner engagement, and adaptive learning support.
-
----
-
-# 15. References
-
-## References
-
-
-## References
-
-## References
-
-## References
-
-[1] [Design of an LLM-driven personalized learning resource recommendation system](https://elicit.com/review/f0f41ee7-68d7-4670-a25a-a14ff56db186/source/ss-277429947)
-
-[2] [TutorLLM: Customizing Learning Recommendations with Knowledge Tracing and Retrieval-Augmented Generation](https://elicit.com/review/f0f41ee7-68d7-4670-a25a-a14ff56db186/source/ss-276575412)
-
-[3] [X. Jin and S. Kamarthi - Personalized learning paths: LLM-based course recommendations in manufacturing education](https://scholar.google.com/scholar?q=Personalized+learning+paths+LLM-based+course+recommendations+in+manufacturing+education)
+## Paper 3
+Personalized Learning Paths: LLM-Based Course Recommendations in Manufacturing Education
 
 ---
 
@@ -499,10 +370,10 @@ We hereby declare that this research work is original and has been carried out u
 
 We sincerely thank:
 
-- ERA Foundation
-- ComedKares
-- Faculty mentors
-- Institution
-- Industry experts
+- ERA Foundation  
+- ComedKares  
+- Faculty mentors  
+- Institution  
+- Industry experts  
 
 for their continuous support and guidance.
