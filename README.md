@@ -5,7 +5,7 @@
 <img src="https://www.erafoundationindia.org/images/logo.svg" height="80" style="background:white; padding:8px; margin:0 16px;" />
 <img src="https://comedkares.org/wp-content/uploads/2023/04/Comedkares-Logo-EPS.png" height="80" style="background:white; padding:8px; margin:0 16px;" />
 
-# Code Generation and Debugging Assistant
+# Personalized Learning Recommendation System
 
 
 **Bhumika K**  
@@ -13,6 +13,7 @@
 **1DA24MC014**
 
 </div>
+
 ---
 
 # Abstract
