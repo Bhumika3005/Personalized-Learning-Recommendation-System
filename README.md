@@ -173,21 +173,27 @@ for their continuous support and guidance.
 
 #  References
 
-[1] Personalized Recommendation System for Online Learning: An Opportunity.
 
-[2] Personalized Learning Recommendation System in E-learning Platforms Using Collaborative Filtering and Machine Learning.
+[1] D. F. Murad et al., "Personalized Recommendation System for Online Learning: An Opportunity," in *2023 8th International Conference on Business and Industrial Research (ICBIR)*, Bangkok, Thailand, 2023, pp. 128–132, doi: 10.1109/ICBIR57571.2023.10147613.
 
-[3] Analysis and Design of Personalized Learning Resources Recommendation System Based on Collaborative Filtering Algorithm.
+[2] J. Alanya-Beltran, "Personalized Learning Recommendation System in E-learning Platforms Using Collaborative Filtering and Machine Learning," in *2024 International Conference on Advances in Computing, Communication and Applied Informatics (ACCAI)*, Chennai, India, 2024, pp. 1–5, doi: 10.1109/ACCAI61061.2024.10602322.
 
-[4] Research on Data-driven Student Personalized Learning Path Recommendation System.
+[3] M. Xu and L. Kong, "Design and Implementation of Personalized Learning Resource Recommendation System based on Collaborative Filtering Algorithm," in *2025 3rd International Conference on Data Science and Information System (ICDSIS)*, Hassan, India, 2025, pp. 1–6, doi: 10.1109/ICDSIS65355.2025.11070920.
 
-[5] Research on Personalized Learning Content Generation and Recommendation Technology Driven by Large Language Models.
+[4] H. Wan, B. Che, H. Luo and X. Luo, "Learning Path Recommendation Based on Knowledge Tracing and Reinforcement Learning," in *2023 IEEE International Conference on Advanced Learning Technologies (ICALT)*, Orem, UT, USA, 2023, pp. 55–57, doi: 10.1109/ICALT58122.2023.00021.
 
-[6] Personalized Learning Paths: LLM-Based Course Recommendations in Manufacturing Education.
+[5] B. Zhang, R. Wan, Y. Chen, Z. Fang, M. Li and C. Ma, "Research on Personalized Learning Content Generation and Recommendation Technology Driven by Large Language Models," in *2025 2nd International Conference on Informatics Education and Computer Technology Applications (IECA)*, Kuala Lumpur, Malaysia, 2025, pp. 53–57, doi: 10.1109/IECA66054.2025.00017.
 
-[7] TutorLLM: Customizing Learning Recommendations with Knowledge Tracing and Retrieval-Augmented Generation.
+[6] R. Sinha and V. Jaglan, "A Federated Learning Approach for Personalized Online Course Recommendation Using Hybrid Recommender Strategies," in *2025 International Conference on Computing and Communications (COMPUTINGCON)*, Talegaon, India, 2025, pp. 1–7, doi: 10.1109/COMPUTINGCON64838.2025.11376955.
 
-[8] Design of an LLM-Driven Personalized Learning Resource Recommendation System: A Comparative Study.
+[7] X. Song, "Research on a Personalised Education Recommendation System Based on Deep Learning: From Learning Data to Customised Learning Paths," in *2024 5th International Conference on Information Science and Education (ICISE-IE)*, Zhanjiang, China, 2024, pp. 147–152, doi: 10.1109/ICISE-IE64355.2024.11025504.
+
+[8] A. K. Pani, S. Thalla, L. Lavanya, K. Sudhakar and S. Gurumoorthy, "Hybrid Knowledge-Enhanced Personalized Learning Recommendation Model for Adaptive and Intelligent Educational Systems," in *2025 2nd International Conference on Software, Systems and Information Technology (SSITCON)*, Tumkur, India, 2025, pp. 1–6, doi: 10.1109/SSITCON66133.2025.11342048.
+
+[9] Z. Yang, Y. Zheng and Y. Yang, "Recommendations for Personalised Learning Paths," in *2024 13th International Conference on Educational and Information Technology (ICEIT)*, Chengdu, China, 2024, pp. 36–40, doi: 10.1109/ICEIT61397.2024.10540724.
+
+[10] S. S. Sikarwar, S. S. Bihari, I. Ali, D. Khandelwal, S. Kapoor and S. Singh, "Machine Learning Techniques for Personalized E-Learning Systems," in *2024 1st International Conference on Advances in Computing, Communication and Networking (ICAC2N)*, Greater Noida, India, 2024, pp. 1565–1570, doi: 10.1109/ICAC2N63387.2024.10895052.
+
 
 ---
 
