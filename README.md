@@ -8,7 +8,7 @@
 # Personalized Learning Recommendation System
 
 
-**Bhumik K**  
+**Bhumika K**  
 **MCA**  
 **1DA24MC014**
 
@@ -116,7 +116,7 @@ The backend is developed using FastAPI and Python. It handles authentication, re
 Database
 
 Supabase PostgreSQL is used to store user information, courses, enrollments, learning paths, study materials, assessments, progress records, and certificates.
----
+
 
 ---
 
