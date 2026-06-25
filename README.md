@@ -95,10 +95,7 @@ The system monitors course completion, learning activities, and module progress.
 **Step 9: Assessment Module**
 After completing the learning content, users take an assessment. The system automatically evaluates answers and calculates scores.
 
-**Step 10: Certificate Generation**
-Upon successfully passing the assessment, the system generates a downloadable certificate containing learner and course details.
-
-**Step 11: Analytics and Dashboard Update**
+**Step 10: Analytics and Dashboard Update**
 The dashboard is updated with enrolled courses, completed courses, assessment scores, certificates earned, and overall learning progress statistics.
 
 
