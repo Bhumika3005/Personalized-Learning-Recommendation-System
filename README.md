@@ -90,46 +90,45 @@ Existing e-learning systems provide generic course recommendations without consi
 
 # 5. Methodology
 
+## 5.1 Data Collection
 
-### 5.1 : Data Collection
+Course information, user profiles, skill levels (Beginner, Intermediate, Advanced), enrollment history, video resources, and assessment data are collected and stored in the database. These datasets serve as the foundation for generating personalized recommendations, learning paths, and performance analytics.
 
-Course information, including course titles, descriptions, categories, difficulty levels (Beginner, Intermediate, Advanced), learning resources (videos, PDFs, PPTs), and user profile information are collected and stored in the database. User interactions such as enrollments, assessments, and learning progress are also recorded for personalization.
+## 5.2 Data Preprocessing
 
-### 5.2 : Data Preprocessing
+The collected data is preprocessed by removing duplicate and inconsistent records, handling missing values, and standardizing course descriptions, user interests, and learning objectives. The processed data is converted into a structured format suitable for machine learning algorithms and semantic similarity calculations.
 
-The collected course descriptions and user preference data are cleaned and preprocessed by removing unnecessary symbols, converting text into a standardized format, and handling missing values. The textual information is then prepared for semantic embedding generation.
+## 5.3 User Authentication and Profile Creation
 
-### 5.3 : Feature Extraction
+Users register and log in through a secure authentication mechanism. During registration, users provide their profile information, preferred domain, and skill level. This information is securely stored in the database and used to personalize the learning experience.
 
-Sentence Transformer models are used to convert course descriptions and user interests into dense vector embeddings. These embeddings capture the semantic meaning of the textual data, enabling accurate similarity-based recommendations.
+## 5.4  Personalized Course Recommendation
 
-### 5.4 : Similarity Computation and Recommendation
+The recommendation engine generates personalized course suggestions by converting user interests and course descriptions into semantic embeddings using **Sentence Transformers**. **Cosine Similarity** is then applied to measure the similarity between user preferences and available courses, recommending the most relevant learning resources.
 
-Cosine Similarity is applied to compare user profile embeddings with course embeddings. Courses with the highest similarity scores are recommended to the learner based on their interests, skill level, and learning objectives.
+## 5.5 Personalized Learning Path Generation
 
-### 5.5 : Personalized Learning Path Generation
+After course enrollment, the system automatically generates a structured learning path based on the learner's selected course and skill level. Topics are organized sequentially from beginner to advanced levels, ensuring systematic knowledge acquisition.
 
-After course recommendation and enrollment, the system generates a structured learning path. The learning path organizes the selected course content into Beginner, Intermediate, and Advanced levels to ensure progressive learning.
+## 5.6 Learning Resource Delivery
 
-### 5.6 : Learning Content Management
+The platform provides comprehensive learning resources, including video lectures, PDF notes, PowerPoint presentations, and reference materials. Resources are organized according to the generated learning path, enabling learners to access content in a structured manner.
 
-The recommended course materials, including videos, PDF notes, PowerPoint presentations, and reference documents, are retrieved from the database and presented according to the generated learning path.
+## 5.7 AI Chatbot Integration
 
-### 5.7 : AI Chatbot Integration
+A **Generative AI chatbot** powered by a **Large Language Model (LLM)** is integrated into the platform to provide real-time academic assistance. The chatbot answers learner queries, explains technical concepts, offers study guidance, and supports users throughout the learning process.
 
-A Generative AI chatbot powered by a Large Language Model (LLM) is integrated into the system to provide instant academic support. The chatbot answers learner questions, explains concepts, and provides guidance throughout the learning process.
+## 5.8 Assessment Generation and Evaluation
 
-### 5.8 : Assessment Generation and Evaluation
+After completing the learning modules, the system generates AI-based assessments to evaluate learner understanding. User responses are automatically assessed, scores are calculated, and pass/fail status is determined. Assessment results are stored for future performance analysis.
 
-After completing the learning modules, learners take AI-generated assessments. The system evaluates responses automatically, calculates scores, determines pass/fail status, and stores assessment results for future analysis.
+## 5.9 Progress Monitoring and Analytics
 
-### 5.9 : Progress Tracking
+The system continuously monitors learner activities, including video completion, course progress, assessment performance, and learning time. These metrics are visualized through an interactive analytics dashboard displaying enrolled courses, completed courses, average progress, quiz scores, certificates earned, and overall learning statistics.
 
-The system continuously monitors user activities, including course enrollment, video completion, assessment performance, and overall learning progress. Progress information is updated dynamically and stored in the database.
+## 5.10 Database Management
 
-### 5.10: Analytics and Performance Visualization
-
-Learning statistics are analyzed and displayed through an Analytics Dashboard. The dashboard presents enrolled courses, completed courses, learning progress, assessment scores, certificates earned, and learner activity reports, enabling users to monitor their overall performance effectively.
+All user information, course details, enrollments, learning paths, video progress, assessment results, certificates, and analytics data are securely stored and managed using **Supabase**. The database provides efficient data retrieval, real-time synchronization, and reliable management of learner records throughout the system.
 
 
 ---
