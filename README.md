@@ -67,35 +67,46 @@ Traditional e-learning platforms provide generic learning recommendations that d
 
 # 5. Methodology
 
-**Step 1: User Registration and Login**
-Users create an account and log in to the system using secure authentication. User information is stored in the database for future access.
 
-**Step 2: Skill Level Selection**
-After registration, users select their skill level as Beginner, Intermediate, or Advanced. This helps the system understand the learner's current knowledge level.
+### 5.1 : Data Collection
 
-**Step 3: Personalized Course Recommendation**
-The recommendation engine analyzes user interests, skill level, and learning history to suggest relevant courses using Machine Learning, Sentence Transformers, and Cosine Similarity techniques.
+Course information, including course titles, descriptions, categories, difficulty levels (Beginner, Intermediate, Advanced), learning resources (videos, PDFs, PPTs), and user profile information are collected and stored in the database. User interactions such as enrollments, assessments, and learning progress are also recorded for personalization.
 
-**Step 4: Course Enrollment**
-Users can enroll in recommended courses. Enrollment details are stored in the database and displayed in the My Learning section.
+### 5.2 : Data Preprocessing
 
-**Step 5: Learning Path Generation**
-A personalized learning path is generated based on the selected course and user profile. The path organizes topics from basic to advanced levels.
+The collected course descriptions and user preference data are cleaned and preprocessed by removing unnecessary symbols, converting text into a standardized format, and handling missing values. The textual information is then prepared for semantic embedding generation.
 
-**Step 6: Access Study Materials**
-Learners access videos, PDF notes, PPT presentations, and reference materials related to the enrolled course.
+### 5.3 : Feature Extraction
 
-**Step 7: AI Chatbot Assistance**
-An AI-powered chatbot provides instant support by answering learner queries and explaining concepts during the learning process.
+Sentence Transformer models are used to convert course descriptions and user interests into dense vector embeddings. These embeddings capture the semantic meaning of the textual data, enabling accurate similarity-based recommendations.
 
-**Step 8: Progress Tracking**
-The system monitors course completion, learning activities, and module progress. Progress data is stored and displayed on the dashboard.
+### 5.4 : Similarity Computation and Recommendation
 
-**Step 9: Assessment Module**
-After completing the learning content, users take an assessment. The system automatically evaluates answers and calculates scores.
+Cosine Similarity is applied to compare user profile embeddings with course embeddings. Courses with the highest similarity scores are recommended to the learner based on their interests, skill level, and learning objectives.
 
-**Step 10: Analytics and Dashboard Update**
-The dashboard is updated with enrolled courses, completed courses, assessment scores, certificates earned, and overall learning progress statistics.
+### 5.5 : Personalized Learning Path Generation
+
+After course recommendation and enrollment, the system generates a structured learning path. The learning path organizes the selected course content into Beginner, Intermediate, and Advanced levels to ensure progressive learning.
+
+### 5.6 : Learning Content Management
+
+The recommended course materials, including videos, PDF notes, PowerPoint presentations, and reference documents, are retrieved from the database and presented according to the generated learning path.
+
+### 5.7 : AI Chatbot Integration
+
+A Generative AI chatbot powered by a Large Language Model (LLM) is integrated into the system to provide instant academic support. The chatbot answers learner questions, explains concepts, and provides guidance throughout the learning process.
+
+### 5.8 : Assessment Generation and Evaluation
+
+After completing the learning modules, learners take AI-generated assessments. The system evaluates responses automatically, calculates scores, determines pass/fail status, and stores assessment results for future analysis.
+
+### 5.9 : Progress Tracking
+
+The system continuously monitors user activities, including course enrollment, video completion, assessment performance, and overall learning progress. Progress information is updated dynamically and stored in the database.
+
+### 5.10: Analytics and Performance Visualization
+
+Learning statistics are analyzed and displayed through an Analytics Dashboard. The dashboard presents enrolled courses, completed courses, learning progress, assessment scores, certificates earned, and learner activity reports, enabling users to monitor their overall performance effectively.
 
 
 ---
